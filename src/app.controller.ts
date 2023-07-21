@@ -53,7 +53,7 @@ export class AppController {
 
    @HttpCode(204)
    @Delete(':id')
-   deleteReport(@Param('type') type: string, @Param('id') id: string) {
+   deleteReport(@Param('id') id: string) {
       return this.appService.deleteReport(id);
    }
 }
