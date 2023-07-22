@@ -27,7 +27,7 @@ export const data: Data = {
       {
          id: 'uuid2',
          source: 'YouTube',
-         amount: 2200,
+         amount: 2500,
          created_at: new Date(),
          updated_at: new Date(),
          type: ReportType.INCOME,
@@ -35,7 +35,7 @@ export const data: Data = {
       {
          id: 'uuid3',
          source: 'Facebook',
-         amount: 5500,
+         amount: 500,
          created_at: new Date(),
          updated_at: new Date(),
          type: ReportType.EXPENSE,
